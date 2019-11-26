@@ -51,9 +51,8 @@ You could use a nested array or we could also use a hash table. Better for real 
 
 ### Adding a vertex 
 - Write a method called addVertx
-- Go over this live 
 
-## Removing a Vertex
+## Removing a Vertex (your turn)
 - The function should accept a vertex to remove 
 - The function should loop as long as there are any other vertices in the adjaceny list for that vertex
 - Inside of the loop, call our **removeEdge** function with the vertex we are removing and any values in the adjacency list for that vertex
@@ -62,13 +61,13 @@ You could use a nested array or we could also use a hash table. Better for real 
 ## Traversing a Graph 
 There are lots and lots off applicatons. Think about the friend recommendation on social media. A graph may need to traverse thousands of users to come up with a meaningful connection.
 
-How does debth first and breadth first work with a graph.
+How does debth first and breadth first work with a graph?
 
 
 ## Breadth ...
 - Check a node that is less and then check the other side of the node.
-## Debth 
-- Follow down as far as possible down one branch before we circle back.
+## Debth ...
+- Follow as far as possible down one branch before we circle back.
 - Important to remember where we've been
 
 We're going to do it recursively and iteratively
@@ -86,7 +85,6 @@ Recursive
 	- If any of thos values have not been visited, recursively invoke the helper function with that vertex
 
 	
-	'Go over this in the call stack'
 	
 ## DFS - Iterative
 We could just call it a day with the recursive solution, but we're going to go through again with an iterative example because it's important to see both the interative and recursive solution to a problem.
