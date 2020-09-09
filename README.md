@@ -64,9 +64,7 @@ There are lots and lots off applicatons. Think about the friend recommendation o
 How does debth first and breadth first work with a graph?
 
 
-## Breadth ...
-- Check a node that is less and then check the other side of the node.
-## Debth ...
+## Depth ...
 - Follow as far as possible down one branch before we circle back.
 - Important to remember where we've been
 
